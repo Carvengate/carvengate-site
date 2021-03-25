@@ -7,8 +7,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={`Carvengate`} />
-      <div className="flex justify-center mt-10">
+      <Header />
+      <div className="overflow-x-hidden">
         <main>{children}</main>
       </div>
     </>
