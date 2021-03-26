@@ -1,8 +1,8 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
-import caret from "../images/caret.svg"
+import caret from '../images/caret.svg';
 
 const Button = ({ buttonName, className, pathName }) => (
   <Link
@@ -14,18 +14,18 @@ const Button = ({ buttonName, className, pathName }) => (
     </span>
     <p className="py-1 pr-2 ml-1 text-xs font-semibold">{buttonName}</p>
   </Link>
-)
+);
 
 Button.propTypes = {
   buttonName: PropTypes.string,
   className: PropTypes.string,
   pathName: PropTypes.string,
-}
+};
 
 Button.defaultProps = {
   buttonName: ``,
   className: `ml-7`,
   pathName: `#`,
-}
+};
 
-export default Button
+export default Button;

@@ -21,12 +21,17 @@ module.exports = {
         '30rem': '30rem',
         '37rem': '37rem',
         '64rem': '64rem',
-        '70rem': '70rem'
-      }
+        '70rem': '70rem',
+        imgW: '38.2%',
+        imgH: '79.5%',
+      },
+      inset: {
+        imgT: '7%',
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: ['gatsby-plugin-postcss'],
-}
+};
