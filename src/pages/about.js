@@ -1,10 +1,10 @@
-import React from "react"
-import Footer from "../components/footer"
-import Business from "../images/business.png"
+import React from 'react';
+import Footer from '../components/footer';
+import Desktop from '../images/desktop.jpg';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Button from "../components/button"
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Button from '../components/button';
 
 const About = () => {
   return (
@@ -14,18 +14,18 @@ const About = () => {
         <div className="h-full">
           <div className="flex flex-col justify-center px-2 mt-10 md:mt-36">
             <h1 className="my-3 text-2xl font-normal text-center md:text-5xl font-Jost">
-              {"We are a team"}
+              {'We are a team'}
             </h1>
             <h1 className="text-2xl font-normal text-center md:text-5xl font-Jost">
-              {"of"}
+              {'of'}
             </h1>
             <h1 className="mt-3 text-2xl font-medium text-center uppercase md:text-5xl font-Jost">
-              {"Digital creatives"}
+              {'Digital creatives'}
             </h1>
           </div>
           <div className="px-6 mt-20">
             <div className="relative flex justify-center">
-              <img src={Business} alt="" className="relative md:w-3/5" />
+              <img src={Desktop} alt="" className="relative md:w-3/5" />
             </div>
           </div>
           <div className="mt-20">
@@ -53,7 +53,7 @@ const About = () => {
       </Layout>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

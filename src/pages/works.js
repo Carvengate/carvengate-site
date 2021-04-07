@@ -1,10 +1,10 @@
-import React from "react"
-import Footer from "../components/footer"
-import WorksImg from "../images/work.png"
+import React from 'react';
+import Footer from '../components/footer';
+import WorksImg from '../images/work.png';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Button from "../components/button"
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Button from '../components/button';
 
 const Works = () => {
   return (
@@ -28,7 +28,7 @@ const Works = () => {
               </h2>
               <p className="text-sm font-medium leading-8">
                 {
-                  "We are a digital agency that specialises in graphics & brand design, software development & digital marketing services"
+                  'We are a digital agency that specialises in graphics & brand design, software development & digital marketing services'
                 }
               </p>
               <div className="w-24 mt-4">
@@ -49,7 +49,7 @@ const Works = () => {
               </h2>
               <p className="text-sm font-medium leading-8">
                 {
-                  "We are a digital agency that specialises in graphics & brand design, software development & digital marketing services"
+                  'We are a digital agency that specialises in graphics & brand design, software development & digital marketing services'
                 }
               </p>
               <div className="w-24 mt-4">
@@ -64,7 +64,7 @@ const Works = () => {
       </Layout>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;
