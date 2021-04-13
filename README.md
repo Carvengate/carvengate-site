@@ -5,7 +5,7 @@
     Clone the repo and navigate into the project directory and start it up.
 
     ```shell
-    git clone https://github.com/Carvengate-tech/carvengate-site.git
+    git clone https://github.com/Carvengate/carvengate-site.git
     cd carvengate-site
     gatsby develop
     ```
