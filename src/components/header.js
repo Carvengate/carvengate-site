@@ -44,7 +44,7 @@ const Header = () => {
       </nav>
       <div
         role="menuitem"
-        className="relative z-50 flex flex-col cursor-pointer sm:hidden"
+        className="relative z-50 flex flex-col cursor-pointer focus:outline-none sm:hidden"
         onClick={toggleMenu}
         tabIndex="0"
         onKeyDown={toggleMenu}
