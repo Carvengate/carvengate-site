@@ -47,11 +47,11 @@ const IndexPage = () => {
         <SEO title="Home" />
         <div className="h-full">
           <section>
-            <div className="flex flex-col justify-center px-2 mt-10 md:mt-52">
-              <h1 className="my-3 text-2xl font-normal text-center uppercase md:text-5xl font-Jost">
+            <div className="flex flex-col justify-center px-4 mt-10 md:mt-52">
+              <h1 className="my-3 text-xl font-normal text-center uppercase sm:text-3xl md:text-5xl font-Jost">
                 {'We create digital'}
               </h1>
-              <h1 className="text-2xl font-normal text-center uppercase md:text-5xl font-Jost">
+              <h1 className="text-xl font-normal text-center uppercase sm:text-3xl md:text-5xl font-Jost">
                 {'Identities & experiences.'}
               </h1>
             </div>
