@@ -13,13 +13,13 @@ const About = () => {
         <SEO title="About" />
         <div className="h-full">
           <div className="flex flex-col justify-center px-2 mt-10 md:mt-36">
-            <h1 className="my-3 text-2xl font-normal text-center md:text-5xl font-Jost">
+            <h1 className="my-3 text-2xl font-normal text-center md:text-5xl">
               {'We are a team'}
             </h1>
-            <h1 className="text-2xl font-normal text-center md:text-5xl font-Jost">
+            <h1 className="text-2xl font-normal text-center md:text-5xl">
               {'of'}
             </h1>
-            <h1 className="mt-3 text-2xl font-medium text-center uppercase md:text-5xl font-Jost">
+            <h1 className="mt-3 text-2xl font-medium text-center uppercase md:text-5xl">
               {'Digital creatives'}
             </h1>
           </div>
