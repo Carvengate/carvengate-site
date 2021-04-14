@@ -11,8 +11,8 @@ const Header = () => {
   };
 
   return (
-    <header className="relative flex items-center justify-between pl-6 pr-6 mt-2 sm:pr-16 sm:pl-10">
-      <Link to="/" className="flex items-center justify-center">
+    <header className="relative flex items-center justify-between mt-2 sm:pr-16 sm:pl-10">
+      <Link to="/" className="flex items-center justify-center pl-6 sm:pl-0">
         <img src={logo} className="w-6 sm:w-10" alt="" />
         <p className="text-xs font-medium tracking-widest font-Jost sm:text-base">
           CARVENGATE
@@ -44,7 +44,7 @@ const Header = () => {
       </nav>
       <div
         role="menuitem"
-        className="relative z-50 flex flex-col cursor-pointer focus:outline-none sm:hidden"
+        className="relative z-50 flex flex-col pr-6 cursor-pointer focus:outline-none sm:hidden"
         onClick={toggleMenu}
         tabIndex="0"
         onKeyDown={toggleMenu}
@@ -70,7 +70,7 @@ const Header = () => {
         ></span>
       </div>
       {state && (
-        <div className="absolute z-40 w-1/2 text-white bg-blue-550 left-1/2 sm:hidden -top-32/100">
+        <div className="absolute z-40 w-full h-screen text-white bg-blue-550 sm:hidden -top-32/100">
           <nav className="px-8 mt-14">
             <ul>
               <li className="my-4 font-medium">

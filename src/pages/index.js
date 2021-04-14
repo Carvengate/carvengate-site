@@ -48,10 +48,10 @@ const IndexPage = () => {
         <div className="h-full">
           <section>
             <div className="flex flex-col justify-center px-4 mt-10 md:mt-52">
-              <h1 className="my-3 text-xl font-normal text-center uppercase sm:text-3xl md:text-5xl">
+              <h1 className="my-3 text-xl font-bold text-center uppercase sm:text-3xl md:text-5xl">
                 {'We create digital'}
               </h1>
-              <h1 className="text-xl font-normal text-center uppercase sm:text-3xl md:text-5xl">
+              <h1 className="text-xl font-bold text-center uppercase sm:text-3xl md:text-5xl">
                 {'Identities & experiences.'}
               </h1>
             </div>
